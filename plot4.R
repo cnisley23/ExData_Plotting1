@@ -36,7 +36,8 @@ par(mfrow = c(2, 2))
   # plot 1
 hist(plotdf$Global_active_power, 
      xlab = "Global Active Power (kilowatts)", 
-     col = "red")
+     col = "red", 
+     main = NA)
 
   # plot 2
 with(plotdf, 
